@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+.container{
+    text-align: center;
+    width: 400px;
+
+}
+#img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.content{
+    box-shadow: 5px 5px  15px rgba(0, 0, 0, 0.3);
+    border:  2px solid #ccc;
+    padding: 20px;
+}

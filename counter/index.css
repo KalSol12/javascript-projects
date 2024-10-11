@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    background-color: aqua;
+}
+.container{
+     flex-direction: column;
+     background-color: azure;
+     display: flex;
+     text-align: center;
+}
+.Counter
+{
+     color: red;
+     font-size: 29px;
+
+}
+.btn{
+    background-color: blue;
+
+}
+.btn_class{
+    background-color: brown;
+}

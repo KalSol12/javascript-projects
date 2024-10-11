@@ -1,0 +1,57 @@
+.nav-header{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px  15px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+}
+.lists{
+    list-style: none;
+    
+  
+}
+.lists li{
+    padding-left: 15px;
+    text-decoration: none;
+    margin: 10px 0;
+    display: inline-block;
+    font-size: 36px;
+
+    
+}
+.lists a:hover{
+    color: #ddd;
+}
+
+.list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.berger-btn{
+   display: none;
+    padding: 5px;
+    font-size: 30;
+    cursor: pointer;
+}
+@media(max-width:768px){
+    .lists{
+        display: none;
+        flex-direction: column;
+        left: -50px;
+        position: absolute;
+        top: 80px;
+        width: 20%;
+        
+    }
+    .lists li{
+        text-align: center;
+        margin: 5px 0;
+        font-size: 20px;
+    }
+    .berger-btn{
+        display: block;
+    }
+}
+
+
